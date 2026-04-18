@@ -13,7 +13,7 @@ int main ()
     veces++;
     sum = sum + calif;
     printf("¿Desea sumar otra? S/N\n");
-    setbuf(stdin, NULL);       // limpia el buffer del teclado 
+    setbuf(stdin, NULL);       
     scanf(" %c",&op);
     getchar();
   }
